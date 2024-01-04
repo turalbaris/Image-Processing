@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Image loading and conversion to grayscale
-image = cv2.imread('./Bit Plane Slicing/example_1.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('./Bit Plane Slicing/image_1.png', cv2.IMREAD_GRAYSCALE)
 
 # Function to perform bit plane slicing
 def bit_plane_slicing(image):
