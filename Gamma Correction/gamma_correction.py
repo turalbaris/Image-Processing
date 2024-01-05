@@ -12,7 +12,7 @@ def adjust_gamma(image, gamma=1.0):
     return cv2.LUT(image, table)
 
 # Load the image
-image = cv2.imread('./Gamma Correction/image_1.png')  # Replace with the path to your image
+image = cv2.imread('./Gamma Correction/image_1.png')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 # Images with different gamma values
